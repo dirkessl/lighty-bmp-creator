@@ -96,6 +96,7 @@ div.upload-box input[type=file]{
 <select name="dir" id="dir" form="dir">
   <option value="270">clockwise</option>
   <option value="90">counterclockwise</option>
+  <option value="0">no rotation</option>
 </select>  
 </div>
 
