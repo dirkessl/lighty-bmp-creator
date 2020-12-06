@@ -4,8 +4,8 @@ array_map('unlink', glob("uploads/*.bmp"));
 
 $upload_dir = "/www/htdocs/w00e3eda/essl/static/lighty/uploads/"; //path to upload directory
 $upload_dir_url = "https://www.essl.de/static/lighty/uploads/"; //url pointing to upload directory
-$image_height = 144; //max image height
-$image_width = 4000000; //max image width
+//$image_height = 144; //max image height
+//$image_width = 4000000; //max image width
 
 //make sure uploaded file is not empty
 if(!isset($_FILES['image_data']) || !is_uploaded_file($_FILES['image_data']['tmp_name'])){
